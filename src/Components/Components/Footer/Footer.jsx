@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <hr style={{ width: '800px' }} />
       <div style={{ textAlign: 'center', color: 'whitesmoke' }}>
-        <p>Copyright@2024 designed By <a href='/'>Prajwal Kotagi</a></p>
+        <p>Copyright@2024 designed By <a href='/' style={{color: 'white'}}>Prajwal Kotagi</a></p>
       </div>
     </div>
   )
