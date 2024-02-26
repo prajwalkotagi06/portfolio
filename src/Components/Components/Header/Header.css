@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    background: none;
+    
+}
+.logo h3{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    /* gap: 200; */
+    margin-left: 50px;
+    font-style: normal;
+    cursor: pointer;
+}
+.logo Link{
+    color: black;
+}
+
+.bar ul{
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    margin-left: 500px;
+    /* align-items: end; */
+    color: black;
+    
+}
+.bar li{
+    list-style-type: none;
+    font-size: 20px;
+    float: right;
+}
