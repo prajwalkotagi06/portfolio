@@ -26,6 +26,7 @@ function App() {
           <Route path="Blogs" element={<Blogs />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
+      
       <Footer />
       </div>
     </>
