@@ -3,7 +3,7 @@ import Footer from '../Footer/Footer'
 
 const AboutPage = () => {
   return (
-    <div style={{ marginTop: '130px', marginBottom: '210px', marginLeft: '130px',marginRight: '130px' }}>
+    <div style={{ marginTop: '130px', marginBottom: '230px', marginLeft: '130px',marginRight: '130px' }}>
       <h1 style={{ fontSize: '50px', color: 'white' }}>About Me.</h1>
       <p style={{
         fontSize: '20px', color: 'white',
