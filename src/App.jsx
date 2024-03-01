@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
+import './Home.css'
 import Home from './Components/Pages/Home'
 import Contact from './Components/Pages/Contact'
 import About from './Components/Pages/About'
@@ -8,7 +8,7 @@ import Projects from './Components/Pages/Projects'
 import Blogs from './Components/Pages/Blogs'
 import NoPage from './Components/Pages/NoPage'
 import Header from './Components/Components/Header/Header'
-import Footer from './Components/Components/Footer/Footer'
+
 
 function App() {
   
@@ -26,8 +26,6 @@ function App() {
           <Route path="Blogs" element={<Blogs />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
-      
-      <Footer />
       </div>
     </>
   )

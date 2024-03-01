@@ -12,9 +12,9 @@ const Header = () => {
           <ul>
             <Link to="/" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Home</li></Link>
             <Link to="/About" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>About</li></Link>
-            <Link to="/Projects" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Projects</li></Link>
+            {/* <Link to="/Projects" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Projects</li></Link> */}
             <Link to="/Experience" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Experience</li></Link>
-            <Link to="/Blogs" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Blogs</li></Link>
+            {/* <Link to="/Blogs" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Blogs</li></Link> */}
             <Link to="/Contact" style={{color: 'whitesmoke', textDecoration: 'none'}}><li>Contact</li></Link>
           </ul>
         </div>
